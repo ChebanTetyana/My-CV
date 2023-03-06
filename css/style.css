@@ -1,0 +1,74 @@
+ html, body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 100vh;
+    background: linear-gradient(0deg, #fff, #cad9f9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 30px;
+    color: #292a2b; 
+    text-align: center; 
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    justify-content: center;
+    flex: 1;
+    margin-left: 116px;
+}
+
+.subtitle {
+    font-size: 22px;
+    text-align: center;
+    color: #000000; 
+}
+
+i {
+    color: #050f68;
+}
+
+.foto{
+    box-shadow: 2px 2px 16px #000000;
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+    color: #0a20eb;
+    text-decoration: underline;
+}
+
+#center{
+  text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #464646;
+}
+
+h4{
+    text-align: center;
+    color: #464646; 
+    font-style: italic;  
+}
+
+#contact,
+#skills,
+#education,
+#work
+{
+    border-bottom: 2px solid #2600ff;
+}
+
+
+
+
